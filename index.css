@@ -61,28 +61,28 @@ picture {
   object-fit: cover;
 }
 
-.feedback-information {
+.information {
   width: 100%;
   margin: 0 auto;
   box-sizing: content-box;
 
 }
 
-.feedback-information h1 {
+.information h1 {
   max-width: 100%;
   font-size: 2.8em;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bolder;
 }
 
-.feedback-information p {
+.information p {
   max-width: 100%;
   font-size: 1em;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 400;
 }
 
-.feedback-information>button {
+.information>button {
   background-color: rgba(40, 40, 247, 0.9);
   color: white;
   font-size: 1.120em;
@@ -93,7 +93,7 @@ picture {
   
 }
 
-.feedback-information>button:hover {
+.information>button:hover {
   background-color: rgba(40, 40, 247, 0.7);
   /* border: 3px double rgba(68, 68, 238, 0.8); */
   transition: all 200ms ease-in-out;
@@ -112,18 +112,18 @@ picture {
     max-width: 500px;
   }
 
-  .feedback-information {
+  .information {
     min-width: 300px;
     max-width: 580px;
     margin-left: 10px;
   }
 
-  .feedback-information p {
+  .information p {
     width: 90%;
     font-size: 1em;
   }
 
-  .feedback-information h1 {
+  .information h1 {
     width: 100%;
     font-size: 2em;
     font-weight: bolder;
@@ -140,7 +140,7 @@ picture {
 
 @media (min-width:640px) and (max-width:768px) {
 
-  .feedback-information {
+  .information {
 
     max-width: 500px;
   }
@@ -164,16 +164,16 @@ picture {
     max-width: 400px;
   }
 
-  .feedback-information {
+  .information {
     max-width: 300px;
   }
 
-  .feedback-information p {
+  .information p {
     font-size: 1.2em;
     width: 100%;
   }
 
-  .feedback-information h1 {
+  .information h1 {
     font-size: 2.8em;
     width: 100%;
   }
@@ -181,15 +181,15 @@ picture {
 
 @media (min-width:1024px) and (max-width:1280px) {
 
-  .feedback-information {
+  .information {
     max-width: 500px;
   }
 
-  .feedback-information h1 {
+  .information h1 {
     max-width: 500px;
   }
 
-  .feedback-information p {
+  .information p {
     max-width: 450px;
   }
 }
@@ -200,16 +200,16 @@ picture {
     max-width: 500px;
   }
 
-  .feedback-information {
+  .information {
     max-width: 50%;
   }
 
-  .feedback-information h1 {
+  .information h1 {
     max-width: 600px;
     font-size: 5em;
   }
 
-  .feedback-information p {
+  .information p {
     max-width: 450px;
     font-size: 1.6em;
   }
@@ -217,16 +217,16 @@ picture {
 
 @media (min-width:1440px) {
 
-  .feedback-information {
+  .information {
     max-width: 50%;
   }
 
-  .feedback-information h1 {
+  .information h1 {
     max-width: 600px;
     font-size: 5.1em;
   }
 
-  .feedback-information p {
+  .information p {
     max-width: 600px;
     font-size: 1.9em;
   }
