@@ -1,10 +1,10 @@
 # 404 Not Fount 
  
 
-Esta prueba fue realizada con HTML y CSS.
+Este reto fue realizado con HTML y CSS.
 
 
 ## Desarrollo del proyecto 💻
 
-- Vista de pagina de error 404, es responsive.  
+- Vista de pagina de error 404, responsive.  
 

@@ -1,0 +1,238 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  height: 85%;
+  box-sizing: border-box;
+}
+
+.header {
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  padding: 10px 0 0 10px;
+
+}
+
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  padding: 5px;
+}
+
+.footer>p {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.footer>p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  color: rgb(170, 166, 166);
+}
+
+p>span {
+  font-weight: bold;
+}
+
+picture {
+  width: 50%;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  object-fit: cover;
+}
+
+.feedback-information {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: content-box;
+
+}
+
+.feedback-information h1 {
+  max-width: 100%;
+  font-size: 2.8em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+.feedback-information p {
+  max-width: 100%;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+}
+
+.feedback-information>button {
+  background-color: rgba(40, 40, 247, 0.9);
+  color: white;
+  font-size: 1.120em;
+  padding: 1.250em;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+
+.feedback-information>button:hover {
+  background-color: rgba(40, 40, 247, 0.7);
+  /* border: 3px double rgba(68, 68, 238, 0.8); */
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+
+}
+
+@media (min-width:320px) and (max-width:640px) {
+
+  picture {
+    width: 100%;
+  }
+
+  .img {
+    min-width: 320px;
+    max-width: 500px;
+  }
+
+  .feedback-information {
+    min-width: 300px;
+    max-width: 580px;
+    margin-left: 10px;
+  }
+
+  .feedback-information p {
+    width: 90%;
+    font-size: 1em;
+  }
+
+  .feedback-information h1 {
+    width: 100%;
+    font-size: 2em;
+    font-weight: bolder;
+  }
+
+  .footer>p {
+    font-size: 11px;
+  }
+
+  p>span {
+    font-size: 11px;
+  }
+}
+
+@media (min-width:640px) and (max-width:768px) {
+
+  .feedback-information {
+
+    max-width: 500px;
+  }
+
+  picture {
+    max-width: 400px;
+  }
+
+  .footer>p {
+    font-size: medium;
+  }
+
+  p>span {
+    font-size: medium;
+  }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+  picture {
+    max-width: 400px;
+  }
+
+  .feedback-information {
+    max-width: 300px;
+  }
+
+  .feedback-information p {
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .feedback-information h1 {
+    font-size: 2.8em;
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) and (max-width:1280px) {
+
+  .feedback-information {
+    max-width: 500px;
+  }
+
+  .feedback-information h1 {
+    max-width: 500px;
+  }
+
+  .feedback-information p {
+    max-width: 450px;
+  }
+}
+
+@media (min-width:1280px) and (max-width:1440px) {
+  picture {
+    width: 50%;
+    max-width: 500px;
+  }
+
+  .feedback-information {
+    max-width: 50%;
+  }
+
+  .feedback-information h1 {
+    max-width: 600px;
+    font-size: 5em;
+  }
+
+  .feedback-information p {
+    max-width: 450px;
+    font-size: 1.6em;
+  }
+}
+
+@media (min-width:1440px) {
+
+  .feedback-information {
+    max-width: 50%;
+  }
+
+  .feedback-information h1 {
+    max-width: 600px;
+    font-size: 5.1em;
+  }
+
+  .feedback-information p {
+    max-width: 600px;
+    font-size: 1.9em;
+  }
+
+  .footer>p {
+    font-size: 0.9em;
+  }
+
+}
